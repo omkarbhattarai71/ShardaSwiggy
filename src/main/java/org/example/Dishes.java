@@ -5,11 +5,13 @@ public class Dishes {
 
     String dishName;
     int dishId;
+    int restroId;
     int dishPrice;
-    public Dishes(int dishId, int dishPrice, String dishName){
+    public Dishes(int dishId,int restroId, String dishName, int dishPrice){
         this.dishId = dishId;
         this.dishPrice = dishPrice;
         this.dishName = dishName;
+        this. restroId=restroId;
     }
     @Override
     public String toString(){
